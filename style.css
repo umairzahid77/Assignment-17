@@ -105,15 +105,93 @@
     background-image: url('./assets/images/body_bg.png');
 }
 
+#black img {
+    border-radius: 10px 10px 0 0px;
+}
+
 #white {
     background-color: rgb(255, 255, 255);
     width: 1280px;
     margin: auto;
 }
 
-.main {
+.col-lg-12 {
+    display: flex;
+    justify-self: center;
     width: 960px;
     margin: auto;
+}
+
+.card1 {
+    background-color: #a4a4a4;
+    margin: 10px 5px 0px 0px;
+    border-radius: 10px;
+}
+
+.card1 h3 {
+    padding: 15px;
+}
+
+.card1 p {
+    padding: 15px;
+}
+
+.card2 {
+    background-color: #855ac9;
+    border-radius: 10px;
+    margin: 0px 5px 10px 0px;
+    width: 310px;
+}
+
+.card2 h3 {
+    padding: 15px;
+}
+
+.card3 {
+    background-color: #ff90c4;
+    border-radius: 10px;
+    margin: 0px 5px 10px 5px;
+    width: 310px;
+}
+
+.card3 h3 {
+    padding: 15px;
+}
+
+.card4 {
+    background-color: #e3350d;;
+    border-radius: 10px;
+    margin: 10px 0px 5px 5px;
+}
+
+.card4 h3 {
+    padding: 15px;
+}
+
+.card5 {
+    background-color: #1b53ba;
+    border-radius: 10px;
+    margin: 5px 0px 5px 5px;
+}
+
+.card5 h3 {
+    padding: 15px;
+}
+
+.card6 {
+    background-color: #30a7d7;
+    border-radius: 10px;
+    margin: 5px 0px 10px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.card6 h3 {
+    padding: 15px;
+}
+
+.card6 img {
+    border-radius: 10px 0px 0 10px !important;
 }
 
 /* carousel starts here */
@@ -158,12 +236,6 @@
 
 .ability h5 {
     width: 100px;
-}
-
-/* owlcarousel starts here */
-
-.abc{
-    width: 400px;
 }
 
 /* types */
