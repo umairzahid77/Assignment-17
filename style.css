@@ -160,6 +160,12 @@
     width: 100px;
 }
 
+/* owlcarousel starts here */
+
+.item{
+    width: 400px;
+}
+
 /* types */
 
 .grass {

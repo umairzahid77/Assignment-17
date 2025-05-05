@@ -4,9 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/3fa963229c.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- owl carousel cdn (cdnjs.com)-->
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.default.min.css" />
+
+    <!-- local css -->
     <link rel="stylesheet" href="./style.css">
     <title>Assignment # 17</title>
 
@@ -61,7 +70,7 @@
 
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Pokemon</a> -->
+            <a class="navbar-brand" href="#">Pokemon</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -161,7 +170,7 @@
 
             color: #30a7d7;
 
-            <!-- carousel starts here -->
+            <!-- bootstrap carousel starts here -->
 
             <div id="carousel">
                 <div id="carouselExampleIndicators" class="carousel slide">
@@ -427,22 +436,289 @@
                 </div>
             </div>
 
-            <div id="main">
-                <div class="test"></div>
-                <div class="test"></div>
-                <div class="test"></div>
-                <div class="test"></div>
-                <div class="test"></div>
-                <div class="test"></div>
-                <div class="test"></div>
+            <!-- owlcarousel starts here -->
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/066.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Machop</h3>
+                            <h3>066</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="fighting">
+                                <b>Fighting</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Guts / No Guard</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/1010.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Iron Leaves</h3>
+                            <h3>1010</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="grass">
+                                <b>Grass</b>
+                            </div>
+                            <div class="psychic">
+                                <b>Psychic</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Quark Drive</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/113.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Chansey</h3>
+                            <h3>113</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="normal">
+                                <b>Normal</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Serene Grace / Natural Cure</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/153.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Bayleef</h3>
+                            <h3>153</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="grass">
+                                <b>Grass</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Overgrow</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/280.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Ralts</h3>
+                            <h3>280</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="psychic">
+                                <b>Psychic</b>
+                            </div>
+                            <div class="fairy">
+                                <b>Fairy</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Synchronize / Trace</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/281.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Kirlia</h3>
+                            <h3>281</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="psychic">
+                                <b>Psychic</b>
+                            </div>
+                            <div class="fairy">
+                                <b>Fairy</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Trace / Synchronize</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/705.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Sliggoo</h3>
+                            <h3>705</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="dragon">
+                                <b>Dragon</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Sap Sipper / Hydration</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/747.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Mareanie</h3>
+                            <h3>747</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="poison">
+                                <b>Poison</b>
+                            </div>
+                            <div class="water">
+                                <b>Water</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Merciless / Limber</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/855.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Polteageist</h3>
+                            <h3>855</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="ghost">
+                                <b>Ghost</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Weak Armor</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card_up">
+                        <img src="./assets/images/carousel/996.png" class="d-block w-100">
+                    </div>
+                    <div class="card_down">
+                        <div class="name">
+                            <h3>Frigibax</h3>
+                            <h3>996</h3>
+                        </div>
+                        <div class="type">
+                            <h5>Type</h5>
+                            <div class="dragon">
+                                <b>Dragon</b>
+                            </div>
+                            <div class="ice">
+                                <b>Ice</b>
+                            </div>
+                        </div>
+                        <div class="ability">
+                            <h5>Abilities</h5>
+                            <b>Thermal Exchange</b>
+                        </div>
+                    </div>
+                </div>
             </div>
+        
+            <!-- <div id="main">
+                <div class="test"></div>
+                <div class="test"></div>
+                <div class="test"></div>
+                <div class="test"></div>
+                <div class="test"></div>
+                <div class="test"></div>
+                <div class="test"></div>
+            </div> -->
 
         </div>
     </div>
 
+
+    <!-- jquery cdn (cdnjs.com)-->
+    <script src="./assets/owlcarousel/jquery.min.js"></script>
+
+    <!-- owl carousel cdn (cdnjs.com)-->
+    <script src="./assets/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- owl carousel plugin-->
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+
+    <!-- owl carousel setup-->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            center: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+    <!-- bootstrap cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
